@@ -4,7 +4,7 @@ import json
 from datetime import datetime
 import sys
 
-# Server Code
+# TThis is Server side Code 
 class MessengerServer:
     def __init__(self, host='localhost', port=5000):
         self.host = host
@@ -49,7 +49,7 @@ class MessengerServer:
                 except:
                     pass
 
-# Client Code
+# This is Client side Code
 class MessengerClient:
     def __init__(self, host='localhost', port=5000):
         self.host = host
